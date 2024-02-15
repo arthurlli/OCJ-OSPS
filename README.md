@@ -18,3 +18,6 @@ Hand-written_OCR.ipynb:
 # TODO
 Vision API: highligh low confidence block 
 Vision API detects landmark, logo, faces etc -> fun to try
+
+# Note
+README file is under construction...
