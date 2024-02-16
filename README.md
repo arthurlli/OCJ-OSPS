@@ -9,15 +9,15 @@ There were several tasks to be completed:
 For achieving 1-3, several Python codes were implemented for each purpose. Below descirbes key functions of each source code.
 
 # Description
-CTD_main: A jupyter notebook to retrieve elements from CTD filenames.
+CTD_main: generating metadata file by reading and processing >8000 CTD data.
 
-contact_main: code to read and merge all user names and email (for confidentiality, no prints)
+contact_main: compile all excel files and merge contacts into one list.
 
-Hand-written_OCR.ipynb:
+update_observationLog: update ObservationLog using information in "contact.xlsx".
 
-# TODO
-Vision API: highligh low confidence block 
-Vision API detects landmark, logo, faces etc -> fun to try
+Hand-written_OCR.ipynb: retrieve information from scanned hand-written PDF files
+
+STD_main: similar to Hand-written_OCR, retrieve information from scanned STD PDF files 
 
 # Note
-README file is under construction...
+- Hand written Japanese is recognized by Google Vision API, which requires account token.
